@@ -1,11 +1,11 @@
 const BASE_URL = 'https://restcountries.com/v2/';
 
-const ALL_COUNTRIES = BASE_URL + 'all';
+export const ALL_COUNTRIES = BASE_URL + 'all?fields=name,capital,flags,population,region';
 
-const SearchByCountry = (name) => {
+export const SearchByCountry = (name) => {
   return BASE_URL + 'name/' + name;
 };
 
-const filterByCode = (codes) => {
+export const filterByCode = (codes) => {
   return BASE_URL + 'alfa?codes=' + codes.join(',');
 }

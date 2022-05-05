@@ -30,4 +30,4 @@ function List({children}) {
   );
 }
 
-export default List;
+export {List};
