@@ -17,6 +17,8 @@ SPA to display countries by API
 
 --------------------
 
+Live version GitHub Pages - https://andrew-sparrow.github.io/countries/ 
+
 
 
 ![Alt text](/public/img/screenshot.png?raw=true "Title")
