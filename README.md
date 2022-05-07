@@ -17,7 +17,12 @@ SPA to display countries by API
 
 --------------------
 
-Live version GitHub Pages - https://andrew-sparrow.github.io/countries/ 
+Sources:
+ - https://youtu.be/qVKGzyl0APQ (Михаил Непомнящий)
+ - https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub/rest-countries-api-with-color-theme-switcher-ry2ijA9Bq 
+
+
+Live version GitHub Pages - https://andrew-sparrow.github.io/countries/
 
 
 
