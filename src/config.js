@@ -7,5 +7,5 @@ export const SearchByCountry = (name) => {
 };
 
 export const filterByCode = (codes) => {
-  return BASE_URL + 'alfa?codes=' + codes.join(',');
+  return BASE_URL + 'alpha?codes=' + codes.join(',');
 }

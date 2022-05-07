@@ -32,10 +32,16 @@ function HomePage({countries, setCountries}) {
 
   useEffect(() => {
     if (!countries.length) {
-      axios.get(ALL_COUNTRIES).
-        then(({data}) => setCountries(data));
+      axios.get(ALL_COUNTRIES)
+        .then(({data}) => setCountries(data));
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    handleSearch();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [countries])
 
   return (
     <React.Fragment>
